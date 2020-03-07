@@ -13,7 +13,7 @@ postShopAd() {
   if (!validateArray.includes(false)) {
     this.$store.dispatch('PostCreateStore', this.storeAdItem)
   }
-},
+}
 validateFn(value, msg) {
   if (!value) {
     this.$toast.fail(msg)
@@ -21,7 +21,7 @@ validateFn(value, msg) {
   } else {
     return true
   }
-},
+}
 ```
 
 ```javascript
@@ -34,7 +34,7 @@ shop_icon(type) {
     5: require('@/assets/image/wd_icon.png')
   }
   return obj[type]
-},
+}
 shop_text(type) {
   const obj = {
     1: '我的商品',
