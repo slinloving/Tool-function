@@ -2,6 +2,8 @@
 
 ## 数据校验 处理 if else 问题
 
+### 数据不确定
+
 ```javascript
 postShopAd() {
   const validateArray = [
@@ -23,6 +25,8 @@ validateFn(value, msg) {
   }
 }
 ```
+
+### 数据确定
 
 ```javascript
 shop_icon(type) {
